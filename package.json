@@ -1,0 +1,55 @@
+{
+  "name": "pecfill",
+  "version": "1.0.0",
+  "description": "Zero-dependency, seedable, production-ready mock data generator. Fast, tiny, and developer-friendly.",
+  "main": "index.js",
+  "module": "index.js",
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/index.test.js",
+    "lint": "node --check index.js",
+    "size": "node -e \"const fs=require('fs');const s=fs.statSync('index.js').size;console.log('index.js:',s,'bytes ('+(s/1024).toFixed(1)+'KB)');\""
+  },
+  "keywords": [
+    "faker",
+    "mock",
+    "fake",
+    "data",
+    "dummy",
+    "seed",
+    "generator",
+    "test",
+    "fixtures",
+    "random",
+    "zero-dependency",
+    "seedable",
+    "prng",
+    "pecfill"
+  ],
+  "author": "Peculiar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peculiar/pecfill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peculiar/pecfill/issues"
+  },
+  "homepage": "https://github.com/peculiar/pecfill#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
