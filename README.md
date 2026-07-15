@@ -11,10 +11,10 @@ npm install pecfill
 
 ## Why pecfill?
 
-| Feature | pecfill | faker.js |
+| Feature | pecfill | similar ones |
 |---|---|---|
 | **Dependencies** | 0 | 0 (v8+) |
-| **Install size** | ~30 KB | ~3 MB |
+| **Install size** | ~30 KB | ~3 MB + |
 | **Seedable PRNG** | ✅ Mulberry32 | ✅ |
 | **Schema engine** | ✅ | ❌ |
 | **Fluent builder** | ✅ | ❌ |
